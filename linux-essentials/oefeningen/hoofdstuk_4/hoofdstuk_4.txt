@@ -1,0 +1,106 @@
+Oefening 1:
+	cd
+
+Oefening 2:
+	mkdir -p PXL/Courses/S1/LinuxESS
+	
+Oefening 3:
+	cd && mkdir -p /home/student/PXL/Courses/S2
+	
+Oefening 4:
+	mkdir -p ./PXL/Courses/S1/WindowsEss
+	
+Oefening 5:
+	mkdir -p ./PXL/Software/Virtualization/VMware\ Workstation
+	
+Oefening 6:
+	tree -L 1 /
+
+Oefening 7:
+	Omdat dit een hidden file is.
+
+Oefening 8:
+	cd /etc/ && cd ../home/student/PXL/Software/Virtualization/VMware\ Workstation
+
+Oefening 9:
+	cd ../../../Courses/S1/LinuxEss/
+
+Oefening 10:
+	cd ~/.ssh
+	
+Oefening 11:
+	ls -a -l && echo NEXT PART && cd /etc/ && ls -h
+	
+Oefening 12:
+	cd && mkdir My\ Pictures && cd ./My\ Pictures && touch Picture1.JPG picture2.JPG Picture3.jpg picture4.jpg
+	
+Oefening 13:
+	rename 'y/A-Z/a-z/' *
+	
+Oefening 14:
+	cd && mkdir ./backup && cp -r .* backup/
+	
+Oefening 15: 
+	sudo rm -rf /home/student/PXL
+	
+Oefening 16:
+	mkdir -p /home/student/school/semester/1/courses/ubuntuserver/exercises/chapter5
+	
+Oefening 17:
+	cd /home/student/school/semester/1/courses/ubuntuserver/exercises/ && mkdir chapter6
+	
+Oefening 18:
+	cd /home/student/school/semester/1/courses/ubuntuserver/exercises/ && rmdir chapter5
+	
+Oefening 19:
+	cd /home/student/school/semester/1/courses/ubuntuserver/exercises/ && mkdir chapter5
+	
+Oefening 20:
+	cd /var/log
+	
+Oefening 21: 
+	cd 
+	
+Oefening 22:
+	cat ./.bashrc
+	
+Oefening 23:
+	cd /e[tab]/dh[tab][enter] (10 toetsaanslagen)
+
+Oefening 24:
+	clear
+
+Oefening 25:
+	ssh student@192.168.254.128 && who
+
+Oefening 26:
+	student@student:~$ echo hello there > /dev/tty1
+	student@student:~$ sl > /dev/tty1
+	
+Oefening 27:
+	cd ~/school/semester/1/courses/ubuntuserver/exercises/chapter5 && touch sourcefile && tree ~/school && ls -l ~/school/semester/1/courses/ubuntuserver/exercises/chapter5
+	
+Oefening 28:
+	Touch word gebruikt om een nieuwe file te genereren.
+	
+Oefening 29:
+	cd ~/school/semester/1/courses/ubuntuserver/exercises/chapter5 && mv ./sourcefile ../chapter6 && cd ../ && ls ./chapter6
+	
+Oefening 30:
+	cd ~/school/semester/1/courses/ubuntuserver/exercises/chapter6 && mv ./sourcefile ../chapter5/SourceFile && cd ../ && ls ./chapter5 | lolcat
+	
+Oefening 31:
+	cp -r ~/school/semester/1/courses/ubuntuserver/exercises/chapter5/SourceFile ~/school/semester/1/courses/ubuntuserver/exercises/chapter6
+	
+Oefening 32:
+	cp -r ~/school/semester/1/courses/ubuntuserver/exercises/chapter6/SourceFile ~/SourceFile.backup
+	
+Oefening 33: 
+	cp -r ~/school/ /tmp && ls -l -h /tmp && tree /tmp/school
+	[restart server] > [items zijn weg]
+	
+Oefening 34:
+	file /dev/sda && file /dev/tty1 && file /etc/passwd
+	
+Oefening 35:
+	sudo find | grep 'SourceFile$'
