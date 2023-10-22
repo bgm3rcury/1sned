@@ -7,3 +7,6 @@
 4. `bashtop`: Name of the Snap application you want to configure.
 
 5. `mount-observe`: The specific interface name that grants the Snap application access to observe and interact with mounted filesystems on the host system.
+
+
+Bekijk snap rechten met "snap interfaces"
